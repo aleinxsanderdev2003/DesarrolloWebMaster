@@ -142,7 +142,7 @@
     text-decoration: underline ;
 }
 
-
+/* responsive de nosotros */
 @media (min-width: 300px) and (max-width: 1076px) {
 
     .div-1{
@@ -226,4 +226,17 @@
 ::selection {
     background-color: black; /* Cambia el color de fondo */
     color: white; /* Cambia el color del texto */
+}
+
+/* responsive*/
+@media (min-width: 665px) and (max-width: 1200px) {
+
+    #testimonios{
+        width: 100%;
+        height: 90%;
+    }
+
+
+
+
 }
