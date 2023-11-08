@@ -41,16 +41,7 @@
 
 
  <!-- Sección de Clientes -->
-<style>
-        /* Estilos para la sección de Testimonios */
-        .testimonials-section {
-            text-align: center;
-            padding: 20px;
-        }
-        .testimonial-card {
-            margin: 20px;
-        }
-</style>
+
  <div class="container clientes-section">
     <h2 class="section-title">Clientes</h2>
     <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -90,6 +81,33 @@
         </a>
     </div>
 </div>
+
+    <!-- Nosotros -->
+
+    <div class="div-1" >
+        <div class="prueba">
+
+            <div class="titulos">
+                <h1>NOSOTROS</h1>
+            </div>
+
+
+
+            <div class="contenidos">
+
+                <p>Somos una empresa dedicada a brindar servicios de desarrollo de Software
+                e Implementación de Sistemas de Gestión de Información con FACTURACIÓN ELECTRÓNICA INTEGRADA y así ayudar a nuestros clientes a administrarla eficientemente.</p>
+
+                <p>¡LO QUE NOS IMPULSA ES UNA INMENSA PASIÓN POR SISTEMATIZAR LOS PROCESOS COMPLEJOS Y HACERLOS SENCILLOS DE REALIZAR!</p>
+
+                <a href="#">Ver mas</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
   <!-- Sección de Productos y Servicios -->
   <div class="container productos-section">
     <h1 class="display-5">PRODUCTOS Y SERVICIOS</h1>
@@ -129,83 +147,98 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <div class="card testimonial-card card-color-1">
+            <div class="card testimonial-card card-color-1"id="testimonios">
                 <div class="card-block">
-                    <div class="tes_author">
-                        <img width="40px" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
-                        <cite class="tes__name">Alexander Rios<span>Químico farmacéutico</span></cite>
+                    <div class="tes_author" id="autor">
+                        <img width="60px" class="circular-image" src="https://i.scdn.co/image/ab67616d0000b273723b32e28332ce5733aea62d" alt="">
+
+                        <div class="container" id="autor">
+                            <span class="nombre">Alexander Rios</span>
+                            <cite class="tes__name" id="referencia">Químico farmacéutico</cite>
+                        </div>
                     </div>
-                    <h4 class="card-title">Excelente atención</h4>
-                    <p class="card-text">
-                        Muy satisfechos con el servicio recibido, adquirimos el Sistema Administrador de Ventas e Inventario para nuestro Centro Médico, todo funciona de maravilla.
-                    </p>
+
+                    <div class="container" id="content-tes">
+
+                        <h4 class="card-title">Excelente atención</h4>
+                        <p class="card-text">
+                            Muy satisfechos con el servicio recibido, adquirimos el Sistema Administrador de Ventas e Inventario para nuestro Centro Médico, todo funciona de maravilla.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" >
+            <div class="card testimonial-card card-color-2" id="testimonios">
+                <div class="card-block">
+                    <div class="tes_author" id="autor">
+                        <img width="60px" class="circular-image" src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2023_10/story_68798/assets/1.png?time=1696920077&size=*:900" alt="">
+                        <div class="container" id="autor">
+                            <span class="nombre">Alexander Maxwell</span>
+                            <cite class="tes__name" id="referencia">Agente de ventas</cite>
+                        </div>
+                    </div>
+
+                    <div class="container" id="content-tes">
+                        <h4 class="card-title">Ingresos adicionales</h4>
+                        <p class="card-text">
+                            Soy parte de la empresa y recibo excelentes ganancias mensuales a través del Programa de Socios donde promociono los diferentes Sistemas.
+                        </p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" >
+            <div class="card testimonial-card card-color-3"id="testimonios">
+                <div class="card-block">
+                    <div class="tes_author"id="autor">
+                        <img width="60px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+
+                        <div class="container" id="autor">
+                            <span class="nombre">Peter Mendez</span>
+                            <cite class="tes__name"id="referencia">Director de MIMOBIL SA</cite>
+                        </div>
+                    </div>
+
+                    <div class="container" id="content-tes">
+                        <h4 class="card-title">Sistemas versátiles</h4>
+                        <p class="card-text">
+                            Adquirimos el Sistema de Ventas e Inventario, la implementación y uso fue muy rápida, permitiéndonos continuar con nuestras actividades habituales.
+                        </p>
+                    </div>
+
+
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card testimonial-card card-color-2">
+            <div class="card testimonial-card card-color-4"id="testimonios">
                 <div class="card-block">
-                    <div class="tes_author">
-                        <img width="40px" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
-                        <cite class="tes__name">Alexander Maxwell<span>Agente de ventas</span></cite>
+                    <div class="tes_author" id="autor">
+                        <img width="60px" class="circular-image" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
+
+                        <div class="container" id="autor">
+                            <span class="nombre">Yessica V</span>
+                            <cite class="tes__name" id="referencia">Director de MIMOBIL SA</cite>
+                        </div>
                     </div>
-                    <h4 class="card-title">Ingresos adicionales</h4>
-                    <p class="card-text">
-                        Soy parte de la empresa y recibo excelentes ganancias mensuales a través del Programa de Socios donde promociono los diferentes Sistemas.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card testimonial-card card-color-3">
-                <div class="card-block">
-                    <div class="tes_author">
-                        <img width="40px" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
-                        <cite class="tes__name">Peter Mendez<span>Director de MIMOBIL SA</span></cite>
+
+                    <div class="container" id="content-tes">
+                        <h4 class="card-title">Facturación electrónica</h4>
+                        <p class="card-text">
+                            Excelente ! Nos presto servicio de Facturación, todo súper rápido y fácil de usar !
+                        </p>
+
                     </div>
-                    <h4 class="card-title">Sistemas versátiles</h4>
-                    <p class="card-text">
-                        Adquirimos el Sistema de Ventas e Inventario, la implementación y uso fue muy rápida, permitiéndonos continuar con nuestras actividades habituales.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card testimonial-card card-color-4">
-                <div class="card-block">
-                    <div class="tes_author">
-                        <img width="40px" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
-                        <cite class="tes__name">Yessica V<span>CM Perpetuo Socorro</span></cite>
-                    </div>
-                    <h4 class="card-title">Facturación electrónica</h4>
-                    <p class="card-text">
-                        Excelente! Nos prestó servicio de Facturación, todo súper rápido y fácil de usar!
-                    </p>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
-<style>
-    /* Estilos para la sección de Testimonios */
-    .testimonials-section {
-        text-align: center;
-        padding: 20px;
-    }
-    .testimonial-card {
-        margin: 20px;
-    }
-    .card-color-1 {
-        background-color: #FF5733;
-    }
-    .card-color-2 {
-        background-color: #33FF57;
-    }
-    .card-color-3 {
-        background-color: #5733FF;
-    }
-    .card-color-4 {
-        background-color: #33FFFF;
-    }
-</style>
+
 @endsection
