@@ -54,3 +54,45 @@
 }
 
 .frase{ font-family: 'Edu TAS Beginner', cursive;}
+
+
+   /* Estilos para la sección de Clientes */
+   .clientes-section {
+    text-align: center;
+    padding: 20px;
+}
+.clientes-container {
+    overflow: hidden;
+}
+.clientes-logos {
+    white-space: nowrap;
+}
+.cliente-logo {
+    display: inline-block;
+    margin: 0 10px; /* Espacio entre logos */
+    max-width: 200px; /* Ancho máximo de los logos */
+}
+
+
+    /* Estilos para la sección de Productos y Servicios */
+    .productos-section {
+        text-align: center;
+        padding: 20px;
+    }
+    .producto-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+
+        /* Estilos para la sección de Clientes */
+        .clientes-section {
+            text-align: center;
+            padding: 20px;
+        }
+        .client-item {
+            display: inline-block;
+            margin: 10px;
+        }
