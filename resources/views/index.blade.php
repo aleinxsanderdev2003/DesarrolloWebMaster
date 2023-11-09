@@ -217,7 +217,7 @@
         </div>
         <div class="col-md-3">
             <div class="card testimonial-card card-color-4"id="testimonios">
-                <div class="card-block">
+                <div class="card-block" >
                     <div class="tes_author" id="autor">
                         <img width="60px" class="circular-image" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
 

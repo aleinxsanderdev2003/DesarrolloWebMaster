@@ -48,11 +48,137 @@
 @yield('content')
 
 
-    <footer class="bg-dark text-light text-center py-3">
-        <div class="container">
-            <p>&copy; 2023 Desarrollo Web Master. Todos los derechos reservados.</p>
+    <footer class="text-light  py-3" id="footer">
+        <div class="contaiyner">
+
+            <div class="footer-link">
+
+                <div class="links">
+
+                    <div class="link">
+                        <h2>
+                            prueba 1
+                        </h2>
+                        <div class="enlaces">
+                            <ul>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <h2>
+                            prueba 2
+                        </h2>
+                        <div class="enlaces">
+                            <ul>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <h2>
+                            Prueba 3
+                        </h2>
+                        <div class="enlaces">
+                            <ul>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                                <li><a href="">ejemplo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="redes">
+                    <h2>
+                        Redes sociales
+                    </h2>
+                    <div class="sociales">
+
+                        <div class="facebook">
+                            <a href="">
+                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="telegram">
+
+                            <a href="">
+                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="instagram">
+                            <a href="">
+                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Suscribete</h3>
+
+                    <form action="">
+                        <input id="correo" type="email" placeholder="correo"  >
+                        <input id="btn" type="submit" value="enviar">
+                    </form>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="footer-text">
+
+
+                <div class="imagenes-pagos">
+                    <div class="facebook">
+                        <a href="">
+                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="telegram">
+
+                        <a href="">
+                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="instagram">
+                        <a href="">
+                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="copy">
+
+
+                    <div class="copy-img">
+                        <a href="">
+                            <img width="50px" src="img/logo.png" alt="" id="logo-pa">
+                        </a>
+                    </div>
+
+                    <div class="contenido-Copy">
+                        <p>&copy; 2023 Desarrollo Web Master. Todos los derechos reservados.</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </div>
     </footer>
+
+    <script src="https://kit.fontawesome.com/6b76d54a65.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
