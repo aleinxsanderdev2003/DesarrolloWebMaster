@@ -1,3 +1,7 @@
 li{
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-scroll {
+    transition: background-color 0.3s ease-in-out;
+}
