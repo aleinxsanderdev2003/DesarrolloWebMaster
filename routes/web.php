@@ -16,4 +16,6 @@ use App\Http\Controllers\LinkController;
 
 Route::get('/', [LinkController::class, 'index'])->name('index');
 Route::get('/tienda', [LinkController::class, 'tienda'])->name('tienda');
+Route::get('/empresa', [LinkController::class, 'empresa'])->name('empresa');
+Route::get('/contacto', [LinkController::class, 'contacto'])->name('contacto');
 

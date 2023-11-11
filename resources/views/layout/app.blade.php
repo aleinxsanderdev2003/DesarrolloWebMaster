@@ -33,13 +33,13 @@
                         <a class="nav-link" href="{{route('index')}}">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Empresa</a>
+                        <a class="nav-link" href="{{route('empresa')}}">Empresa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('tienda')}}">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
                     </li>
                 </ul>
             </div>

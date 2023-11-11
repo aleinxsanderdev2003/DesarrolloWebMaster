@@ -13,4 +13,11 @@ class LinkController extends Controller
         return view("tienda.index");
     }
 
+    public function empresa(){
+        return view("empresa");
+    }
+
+    public function contacto(){
+        return view("contacto");
+    }
 }

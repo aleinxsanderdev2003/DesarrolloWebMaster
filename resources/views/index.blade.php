@@ -105,6 +105,34 @@
         </div>
     </div>
 
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-3b2f3ca1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3b2f3ca1" data-element_type="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="imagebox-wrapper">
+                <div class="imagebox-img">
+                  <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/website_traffic.png" width="621" height="488" class="img-fluid" alt="website_traffic">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="spacer"></div>
+              <h5 class="section-title">CREAMOS TU CAMINO AL ÉXITO</h5>
+              <h2>Más de 10 Años y 200 Clientes</h2>
+              <p>Diseñamos el Sitio Web que necesitas</p>
+              <p>Contamos con la experiencia y los profesionales más capacitados para brindarte un servicio integral de Marketing Digital y Diseño Web que te permita diferenciarte en el mercado.</p>
+              <div class="spacer"></div>
+              <a href="https://digitalmarketing.pe/nosotros" class="btn btn-primary">Nosotros</a>
+              <div class="spacer"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
 
 
 
@@ -137,9 +165,68 @@
     </div>
 </div>
 
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Nuestros Pilares Diferenciales</h2>
+        <!-- Agrega aquí cualquier texto adicional -->
+        <img src="{{asset("img/logo.png")}}" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6">
+        <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/What-We-Offer.png" class="img-fluid" alt="Nuestros Pilares Diferenciales">
+      </div>
+    </div>
 
- <!-- Sección de Testimonios -->
-  <!-- Sección de Testimonios -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="imagebox-wrapper">
+          <div class="imagebox-img">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon1.png" width="184" height="206" class="img-fluid" alt="ENFOCADOS EN RESULTADOS">
+          </div>
+          <div class="imagebox-content">
+            <h5 class="section-title">ENFOCADOS EN RESULTADOS</h5>
+            <p>Somos expertos analizando información y obteniendo conclusiones sostenibles para ofrecerte el servicio que necesitas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="imagebox-wrapper">
+          <div class="imagebox-img">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon2.png" width="184" height="206" class="img-fluid" alt="RAPIDEZ Y EFICIENCIA">
+          </div>
+          <div class="imagebox-content">
+            <h5 class="section-title"><a href="#">RAPIDEZ Y EFICIENCIA</a></h5>
+            <p>Somos amantes de los tiempos óptimos y la eficiencia en nuestros proyectos para beneficio de cada cliente.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="imagebox-wrapper">
+          <div class="imagebox-img">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon3.png" width="184" height="206" class="img-fluid" alt="EXPERIENCIA Y CONOCIMIENTO">
+          </div>
+          <div class="imagebox-content">
+            <h5 class="section-title"><a href="#">EXPERIENCIA Y CONOCIMIENTO</a></h5>
+            <p>Conocemos tu negocio y lo que necesita. Solicita una asesoría de Marketing con nosotros sin compromisos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Sección de Testimonios -->
   <div class="container testimonials-section">
     <h2 class="section-title">TESTIMONIOS</h2>
     <div class="section-desc">
@@ -240,5 +327,10 @@
         </div>
     </div>
 </div>
+
+
+
+
+
 
 @endsection

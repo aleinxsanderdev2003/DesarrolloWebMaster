@@ -1,7 +1,7 @@
   /* Estilos para las imágenes y textos */
   .carousel-item img {
     width: 100%;
-    max-height: 400px; /* Altura máxima deseada */
+    max-height: 500px; /* Altura máxima deseada */
     object-fit: cover; /* Escala y recorta la imagen */
 }
 .carousel-caption {
@@ -237,6 +237,20 @@
     }
 
 }
+/* Nosotros */
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .imagebox-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .imagebox-img {
+    margin-right: 20px;
+  }
+
 
 /* footer*/
 
@@ -366,3 +380,6 @@ hr
 .copy p{
     margin-top: 12px;
 }
+
+
+
