@@ -57,6 +57,57 @@
         </div>
       </div>
 
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{{asset('img/projects/yumi.jpeg')}}" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h2 class="card-title text-black">Plataforma de Pedidos en Línea para Restaurantes</h2>
+            <p class="card-text">Descripción corta del producto.</p>
+            <p class="price">
+              <del>$60.00</del>
+              <ins>$5.00</ins>
+            </p>
+            <a href="" class="btn btn-primary">Añadir al carrito</a>
+            <a href="https://restaurante123.site" class="btn btn-light">Ver Sitio web</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{{asset('img/projects/yumi.jpeg')}}" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h2 class="card-title text-black">Plataforma de Pedidos en Línea para Restaurantes</h2>
+            <p class="card-text">Descripción corta del producto.</p>
+            <p class="price">
+              <del>$60.00</del>
+              <ins>$5.00</ins>
+            </p>
+            <a href="" class="btn btn-primary">Añadir al carrito</a>
+            <a href="https://restaurante123.site" class="btn btn-light">Ver Sitio web</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{{asset('img/projects/yumi.jpeg')}}" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h2 class="card-title text-black">Plataforma de Pedidos en Línea para Restaurantes</h2>
+            <p class="card-text">Descripción corta del producto.</p>
+            <p class="price">
+              <del>$60.00</del>
+              <ins>$5.00</ins>
+            </p>
+            <a href="" class="btn btn-primary">Añadir al carrito</a>
+            <a href="https://restaurante123.site" class="btn btn-light">Ver Sitio web</a>
+          </div>
+        </div>
+      </div>
+
+
 
 
 

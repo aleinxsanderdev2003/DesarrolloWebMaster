@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{asset('css/wsp.css')}}">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: linear-gradient(to top, #dfe9f3 0%, white 100%);">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:#000011;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="80" height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,16 @@
             </div>
         </div>
     </nav>
-
+    <script>
+        // JavaScript para cambiar la sombra al hacer scroll
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 50) {
+                $('.navbar').css('box-shadow', '0px 2px 5px rgba(0, 0, 0, 0.2)');
+            } else {
+                $('.navbar').css('box-shadow', 'none');
+            }
+        });
+    </script>
 @yield('content')
 
 

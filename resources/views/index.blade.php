@@ -88,19 +88,19 @@
         <div class="prueba">
 
             <div class="titulos">
-                <h1>NOSOTROS</h1>
+                <h1 class="text-white"><b>NOSOTROS</b></h1>
             </div>
 
 
 
-            <div class="contenidos">
+            <div class="contenidos" >
 
-                <p>Somos una empresa dedicada a brindar servicios de desarrollo de Software
+                <p class="text-white">Somos una empresa dedicada a brindar servicios de desarrollo de Software
                 e Implementación de Sistemas de Gestión de Información con FACTURACIÓN ELECTRÓNICA INTEGRADA y así ayudar a nuestros clientes a administrarla eficientemente.</p>
 
-                <p>¡LO QUE NOS IMPULSA ES UNA INMENSA PASIÓN POR SISTEMATIZAR LOS PROCESOS COMPLEJOS Y HACERLOS SENCILLOS DE REALIZAR!</p>
+                <p class="text-white">¡LO QUE NOS IMPULSA ES UNA INMENSA PASIÓN POR SISTEMATIZAR LOS PROCESOS COMPLEJOS Y HACERLOS SENCILLOS DE REALIZAR!</p>
 
-                <a href="#">Ver mas</a>
+                <a class="btn btn-warning" href="#">Ver mas</a>
             </div>
         </div>
     </div>
@@ -130,70 +130,98 @@
       </section>
 
 
+      <div class="container mt-5 cotizacion-section">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://o.remove.bg/downloads/955d4b67-6f70-4bee-9381-e9603675f402/photo-1557862921-37829c790f19-removebg-preview.png" class="img-fluid cotizacion-img" alt="Cotización">
+          </div>
+          <div class="col-md-6">
+            <div class="cotizacion-form">
+              <h3 class="mb-4">Cotizar Ahora</h3>
+              <form>
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="correo">Correo Electrónico:</label>
+                  <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Teléfono:</label>
+                  <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Cotización</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-
-  <!-- Sección de Productos y Servicios -->
-  <div class="container productos-section">
+<br><br>
+<!-- Sección de Productos y Servicios -->
+<div class="container productos-section">
     <h1 class="display-5">PRODUCTOS Y SERVICIOS</h1>
     <div class="row">
-        <div class="col-md-4">
-            <div class="producto-card">
-                <h2>Sistema de Ventas Web</h2>
-                <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
-                <a href="#" class="btn btn-primary">VER MÁS</a>
-            </div>
+      <div class="col-md-4">
+        <div class="producto-card">
+          <h2>Sistema de Ventas Web</h2>
+          <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
+          <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
-        <div class="col-md-4">
-            <div class="producto-card">
-                <h2>Sistema de Ventas Web</h2>
-                <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
-                <a href="#" class="btn btn-primary">VER MÁS</a>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="producto-card">
+          <h2>Sistema de Ventas Web</h2>
+          <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
+          <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
-        <div class="col-md-4">
-            <div class="producto-card">
-                <h2>Sistema de Ventas Web</h2>
-                <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
-                <a href="#" class="btn btn-primary">VER MÁS</a>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="producto-card">
+          <h2>Sistema de Ventas Web</h2>
+          <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
+          <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
-        <!-- Agrega más productos y servicios según sea necesario -->
+      </div>
+      <!-- Agrega más productos y servicios según sea necesario -->
     </div>
-</div>
+  </div>
+<style>
 
-<div class="container mt-5">
+</style>
+<div class="container mt-5 pilares-section">
     <div class="row">
       <div class="col-md-6">
-        <h2 class="section-title">Nuestros Pilares Diferenciales</h2>
-        <!-- Agrega aquí cualquier texto adicional -->
-        <img src="{{asset("img/logo.png")}}" class="img-fluid" alt="">
-      </div>
+        <h3 class="display-4 text-center text-primary"><b>Nuestros Pilares Diferenciales</b></h3>
+        <p class="text-center">En <b>Desarrollo Web Master</b>, creemos en la construcción de relaciones sólidas y exitosas. Nuestros pilares fundamentales son más que principios; son la base de nuestra cultura y el motor que impulsa cada proyecto que emprendemos. Estamos comprometidos con la excelencia y la satisfacción del cliente, estableciendo una colaboración efectiva y duradera con cada uno de nuestros socios.</p>
+    </div>
       <div class="col-md-6">
-        <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/What-We-Offer.png" class="img-fluid" alt="Nuestros Pilares Diferenciales">
+        <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/What-We-Offer.png" class="img-fluid pilares-img" alt="Nuestros Pilares Diferenciales">
       </div>
     </div>
 
     <div class="row mt-5">
-      <div class="col-md-4">
+      <div class="col-md-4 pilar-box">
         <div class="imagebox-wrapper">
           <div class="imagebox-img">
-            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon1.png" width="184" height="206" class="img-fluid" alt="ENFOCADOS EN RESULTADOS">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon1.png" class="img-fluid" alt="ENFOCADOS EN RESULTADOS">
           </div>
           <div class="imagebox-content">
-            <h5 class="section-title">ENFOCADOS EN RESULTADOS</h5>
+            <h5 class="section-title"><a href="#">ENFOCADOS EN RESULTADOS</a></h5>
             <p>Somos expertos analizando información y obteniendo conclusiones sostenibles para ofrecerte el servicio que necesitas.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 pilar-box">
         <div class="imagebox-wrapper">
           <div class="imagebox-img">
-            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon2.png" width="184" height="206" class="img-fluid" alt="RAPIDEZ Y EFICIENCIA">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon2.png" class="img-fluid" alt="RAPIDEZ Y EFICIENCIA">
           </div>
           <div class="imagebox-content">
             <h5 class="section-title"><a href="#">RAPIDEZ Y EFICIENCIA</a></h5>
@@ -202,10 +230,10 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 pilar-box">
         <div class="imagebox-wrapper">
           <div class="imagebox-img">
-            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon3.png" width="184" height="206" class="img-fluid" alt="EXPERIENCIA Y CONOCIMIENTO">
+            <img src="https://digitalmarketing.pe/wp-content/uploads/2020/11/home9_icon3.png" class="img-fluid" alt="EXPERIENCIA Y CONOCIMIENTO">
           </div>
           <div class="imagebox-content">
             <h5 class="section-title"><a href="#">EXPERIENCIA Y CONOCIMIENTO</a></h5>
@@ -216,16 +244,8 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
 <!-- Sección de Testimonios -->
   <div class="container testimonials-section">
     <h2 class="section-title">TESTIMONIOS</h2>
