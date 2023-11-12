@@ -1,7 +1,7 @@
   /* Estilos para las imágenes y textos */
   .carousel-item img {
     width: 100%;
-    max-height: 500px; /* Altura máxima deseada */
+    max-height: 800px; /* Altura máxima deseada */
     object-fit: cover; /* Escala y recorta la imagen */
 }
 .carousel-caption {
