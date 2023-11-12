@@ -20,4 +20,7 @@ class LinkController extends Controller
     public function contacto(){
         return view("contacto");
     }
+    public function header(){
+        return view("header");
+    }
 }

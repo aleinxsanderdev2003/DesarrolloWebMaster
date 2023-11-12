@@ -18,4 +18,13 @@ Route::get('/', [LinkController::class, 'index'])->name('index');
 Route::get('/tienda', [LinkController::class, 'tienda'])->name('tienda');
 Route::get('/empresa', [LinkController::class, 'empresa'])->name('empresa');
 Route::get('/contacto', [LinkController::class, 'contacto'])->name('contacto');
+Route::get('/header', [LinkController::class, 'header'])->name('header');
 
+
+
+Route::get('/productos', [ProductController::class, 'index'])->name('productos.index');
+Route::get('/carrito', [ProductController::class, 'carrito'])->name('carrito');
+Route::get('/cotizar', [ProductController::class, 'cotizar'])->name('cotizar');
+
+
+Route::get('/header', [LinkController::class, 'header'])->name('header');

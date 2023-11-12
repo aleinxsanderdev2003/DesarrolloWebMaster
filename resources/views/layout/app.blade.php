@@ -1,3 +1,4 @@
+@include('layout.header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +22,11 @@
     <link rel="stylesheet" href="{{asset('css/wsp.css')}}">
 </head>
 <body>
+
+    <div id="header">
+        <p>Teléfono: +123456789</p>
+        <p>Correo: ejemplo@tudominio.com</p>
+      </div>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:#000011;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="80" height="70"></a>
