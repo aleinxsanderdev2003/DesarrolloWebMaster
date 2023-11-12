@@ -302,6 +302,8 @@ ul
 
     flex-wrap: wrap;
     display: flex;
+    position: relative;
+
 
 }
 
@@ -312,14 +314,22 @@ ul
 
 .redes{
     margin: 50px 30px 30px 0px ;
+    position: relative;
+    left: 2%;
 
 }
 
 
+
+#redes-img{
+    position: relative;
+    right: 7%;
+}
+
 .enlaces a{
     display: block;
     margin-top: 27px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     color: gray;
 
 }
@@ -328,7 +338,7 @@ ul
     color: white;
     text-decoration: underline ;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
 
 }
@@ -336,12 +346,14 @@ ul
 
 .sociales{
     display: flex;
+   margin-bottom: 30px;
 }
 
 
-form{
+#informes{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 }
 
 input
@@ -356,7 +368,7 @@ input
 }
 
 #correo{
-    width: 250px;
+    width:310px;
 }
 
 #btn:hover{
@@ -374,6 +386,21 @@ hr
 .imagenes-pagos{
     display: flex;
     margin-top: 12px;
+    gap: 10px;
+    filter: grayscale(100%);
+}
+
+.masterCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.visa{
+    display: flex;
+    align-items: center;
+    height: 40px;
 }
 
 .footer-text{
@@ -385,6 +412,8 @@ hr
 .copy{
    display: flex;
    justify-content: center;
+   position: relative;
+   left: 5%;
 
 }
 
@@ -398,9 +427,44 @@ hr
 }
 .copy p{
     margin-top: 12px;
+
+}
+
+@media (max-width: 905px) {
+   .footer-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .contenido-Copy p{
+    font-size: 10px;
+    flex-wrap: wrap;
+   }
 }
 
 
+@media (min-width: 300px) and (max-width: 800px) {
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #informes{
+        background-color: #0061a4;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .links{
+        background-color: darkgoldenrod;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 .pilares-section {

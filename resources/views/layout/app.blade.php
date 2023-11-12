@@ -89,43 +89,32 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="link">
-                        <h2>
-                            Prueba 3
-                        </h2>
-                        <div class="enlaces">
-                            <ul>
-                                <li><a href="">ejemplo</a></li>
-                                <li><a href="">ejemplo</a></li>
-                                <li><a href="">ejemplo</a></li>
-                                <li><a href="">ejemplo</a></li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="redes">
                     <h2>
                         Redes sociales
                     </h2>
                     <div class="sociales">
-                        <div class="facebook">
+                        <div class="facebook" id="redes-img">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                                <img width="40px" class="circular-image" src="https://www.facebook.com/images/fb_icon_325x325.png" alt="">
                             </a>
                         </div>
-                        <div class="telegram">
+                        <div class="twiter" id="redes-img">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                                <img width="40px" class="circular-image" src="https://c0.klipartz.com/pngpicture/421/879/gratis-png-logotipo-de-twitter-redes-sociales-logotipo-de-organizacion-de-iphone-twitter.png" alt="">
                             </a>
                         </div>
-                        <div class="instagram">
+                        <div class="instagram" id="redes-img">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                                <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <h3>Suscribete</h3>
-                    <form action="">
+
+                    <h3>Informes</h3>
+                    <form action="" id="informes">
                         <input id="correo" type="email" placeholder="correo"  >
                         <input id="btn" type="submit" value="enviar">
                     </form>
@@ -134,19 +123,19 @@
             <hr>
             <div class="footer-text">
                 <div class="imagenes-pagos">
-                    <div class="facebook">
+                    <div class="visa">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="60px"  src="https://i.ibb.co/WKK1S8h/visa.png" alt="">
                         </a>
                     </div>
-                    <div class="telegram">
+                    <div class="masterCard">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="80px" src="https://i.ibb.co/3R7mWrH/marter-Card.png" alt="">
                         </a>
                     </div>
-                    <div class="instagram">
+                    <div class="paypal">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="50px" src="https://i.ibb.co/f9mRQF0/paypal.png" alt="">
                         </a>
                     </div>
                 </div>
