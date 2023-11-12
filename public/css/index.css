@@ -441,10 +441,16 @@ hr
     font-size: 10px;
     flex-wrap: wrap;
    }
+   .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 }
 
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 513px) {
     .redes{
         display: flex;
         justify-content: center;
@@ -452,15 +458,12 @@ hr
         flex-direction: column;
     }
     #informes{
-        background-color: #0061a4;
         display: flex;
         flex-direction: column;
     }
 
 
-
     .links{
-        background-color: darkgoldenrod;
         display: flex;
         flex-direction: column;
     }
