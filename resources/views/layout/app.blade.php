@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="{{asset('css/index.css')}}">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/wsp.css')}}">
-</head>
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:#000011;">
         <div class="container">
@@ -110,17 +112,17 @@
                     <div class="sociales">
                         <div class="facebook">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
-                            </a>
+                                <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="">
+                        </a>
                         </div>
                         <div class="telegram">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                                <img width="40px" class="circular-image" src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338430_1280.png" alt="">
                             </a>
                         </div>
                         <div class="instagram">
                             <a href="">
-                                <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                                <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/768px-Instagram-Icon.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -136,17 +138,17 @@
                 <div class="imagenes-pagos">
                     <div class="facebook">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="">
                         </a>
                     </div>
                     <div class="telegram">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="40px" class="circular-image" src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338430_1280.png" alt="">
                         </a>
                     </div>
                     <div class="instagram">
                         <a href="">
-                            <img width="40px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                            <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/768px-Instagram-Icon.png" alt="">
                         </a>
                     </div>
                 </div>

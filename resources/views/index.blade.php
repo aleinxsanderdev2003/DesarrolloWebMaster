@@ -165,25 +165,25 @@
 <br><br>
 <!-- Sección de Productos y Servicios -->
 <div class="container productos-section">
-    <h1 class="display-5">PRODUCTOS Y SERVICIOS</h1>
+    <h1 class="display-5" style="font-family: 'Kdam Thmor Pro', sans-serif;">PRODUCTOS Y SERVICIOS</h1>
     <div class="row">
       <div class="col-md-4">
         <div class="producto-card">
-          <h2>Sistema de Ventas Web</h2>
+          <h2 style="font-family: 'Kdam Thmor Pro', sans-serif;">Sistema de Ventas Web</h2>
           <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
           <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto-card">
-          <h2>Sistema de Ventas Web</h2>
+          <h2 style="font-family: 'Kdam Thmor Pro', sans-serif;">Sistema de Ventas Web</h2>
           <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
           <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto-card">
-          <h2>Sistema de Ventas Web</h2>
+          <h2 style="font-family: 'Kdam Thmor Pro', sans-serif;">Sistema de Ventas Web</h2>
           <p>Software administrador de compras, ventas e inventario de propósito general, orientado a todo tipo de negocios, podrá gestionar los principales procesos como cotizaciones, caja chica, gastos, balance, clientes, proveedores, múltiples ...</p>
           <a href="#" class="btn btn-primary">VER MÁS</a>
         </div>
@@ -197,7 +197,7 @@
 <div class="container mt-5 pilares-section">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="display-4 text-center text-primary"><b>Nuestros Pilares Diferenciales</b></h3>
+        <h3 style="color : #120f1c; font-family: 'Kdam Thmor Pro', sans-serif;" class="display-4 text-center"><b>Nuestros Pilares Diferenciales</b></h3>
         <p class="text-center">En <b>Desarrollo Web Master</b>, creemos en la construcción de relaciones sólidas y exitosas. Nuestros pilares fundamentales son más que principios; son la base de nuestra cultura y el motor que impulsa cada proyecto que emprendemos. Estamos comprometidos con la excelencia y la satisfacción del cliente, estableciendo una colaboración efectiva y duradera con cada uno de nuestros socios.</p>
     </div>
       <div class="col-md-6">
@@ -248,7 +248,7 @@
 <br>
 <!-- Sección de Testimonios -->
   <div class="container testimonials-section">
-    <h2 class="section-title">TESTIMONIOS</h2>
+    <h2 class="section-title" style="font-family: 'Kdam Thmor Pro', sans-serif;">TESTIMONIOS</h2>
     <div class="section-desc">
         <p>Socios y clientes agradecidos con nuestros servicios</p>
     </div>
@@ -257,7 +257,7 @@
             <div class="card testimonial-card card-color-1"id="testimonios">
                 <div class="card-block">
                     <div class="tes_author" id="autor">
-                        <img width="60px" class="circular-image" src="https://i.scdn.co/image/ab67616d0000b273723b32e28332ce5733aea62d" alt="">
+                        <img width="60px" class="circular-image" src="https://3.bp.blogspot.com/__3ubXQGOdTg/SxFQQPEXTuI/AAAAAAAABLw/4DlbjKkevtY/s1600/rostroh.jpg" alt="">
 
                         <div class="container" id="autor">
                             <span class="nombre">Alexander Rios</span>
@@ -280,7 +280,7 @@
             <div class="card testimonial-card card-color-2" id="testimonios">
                 <div class="card-block">
                     <div class="tes_author" id="autor">
-                        <img width="60px" class="circular-image" src="https://akm-img-a-in.tosshub.com/sites/visualstory/stories/2023_10/story_68798/assets/1.png?time=1696920077&size=*:900" alt="">
+                        <img width="60px" class="circular-image" src="https://www.maskusplanet.com/blog/imagenes/lima_mujer.jpg" alt="">
                         <div class="container" id="autor">
                             <span class="nombre">Alexander Maxwell</span>
                             <cite class="tes__name" id="referencia">Agente de ventas</cite>
@@ -303,7 +303,7 @@
             <div class="card testimonial-card card-color-3"id="testimonios">
                 <div class="card-block">
                     <div class="tes_author"id="autor">
-                        <img width="60px" class="circular-image" src="https://www.debate.com.mx/__export/1626118530724/sites/debate/img/2021/07/12/lisa-blackpink_crop1626118423655.jpg_423682103.jpg" alt="">
+                        <img width="60px" class="circular-image" src="https://www.maskusplanet.com/blog/imagenes/rio_hombre.JPG" alt="">
 
                         <div class="container" id="autor">
                             <span class="nombre">Peter Mendez</span>
@@ -326,7 +326,7 @@
             <div class="card testimonial-card card-color-4"id="testimonios">
                 <div class="card-block" >
                     <div class="tes_author" id="autor">
-                        <img width="60px" class="circular-image" src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
+                        <img width="60px" class="circular-image" src="https://www.maskusplanet.com/blog/imagenes/rio_mujer.JPG" alt="">
 
                         <div class="container" id="autor">
                             <span class="nombre">Yessica V</span>
