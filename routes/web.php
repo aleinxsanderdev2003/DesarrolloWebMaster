@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LinkController;
+use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +17,6 @@ use App\Http\Controllers\LinkController;
 
 
 Route::get('/', [LinkController::class, 'index'])->name('index');
-Route::get('/tienda', [LinkController::class, 'tienda'])->name('tienda');
 Route::get('/empresa', [LinkController::class, 'empresa'])->name('empresa');
 Route::get('/contacto', [LinkController::class, 'contacto'])->name('contacto');
 Route::get('/header', [LinkController::class, 'header'])->name('header');
@@ -27,4 +28,8 @@ Route::get('/carrito', [ProductController::class, 'carrito'])->name('carrito');
 Route::get('/cotizar', [ProductController::class, 'cotizar'])->name('cotizar');
 
 
-Route::get('/header', [LinkController::class, 'header'])->name('header');
+Route::get('/tienda', [CategoriaController::class, 'index'])->name('tienda');
+Route::get('/categorias/{categoria}', [ProductoController::class, 'mostrarCategoria']);
+
+Route::get('/productos', [ProductController::class, 'index'])->name('productos.index');
+Route::get('/categorias/{categoria}', [ProductController::class, 'mostrarCategoria']);

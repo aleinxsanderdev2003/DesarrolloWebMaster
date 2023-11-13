@@ -1,4 +1,4 @@
-@include('layout.header')
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,10 +25,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 <body>
 
-    <div id="header">
-        <p>Teléfono: +123456789</p>
-        <p>Correo: ejemplo@tudominio.com</p>
-      </div>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:#000011;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" width="80" height="70"></a>
@@ -45,6 +41,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('tienda')}}">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Servicios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('contacto')}}">Contacto</a>
@@ -64,8 +63,6 @@
         });
     </script>
 @yield('content')
-
-
 
     <footer class="text-light  py-3" id="footer">
         <div class="contaiyner">
@@ -97,7 +94,6 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
                 <div class="redes">
                     <h2>
@@ -106,30 +102,17 @@
                     <div class="sociales">
                         <div class="facebook" id="redes-img">
                             <a href="">
-<<<<<<< HEAD
                                 <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="">
                         </a>
-=======
-                                <img width="40px" class="circular-image" src="https://www.facebook.com/images/fb_icon_325x325.png" alt="">
-                            </a>
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                         </div>
                         <div class="twiter" id="redes-img">
                             <a href="">
-<<<<<<< HEAD
                                 <img width="40px" class="circular-image" src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338430_1280.png" alt="">
-=======
-                                <img width="40px" class="circular-image" src="https://c0.klipartz.com/pngpicture/421/879/gratis-png-logotipo-de-twitter-redes-sociales-logotipo-de-organizacion-de-iphone-twitter.png" alt="">
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                             </a>
                         </div>
                         <div class="instagram" id="redes-img">
                             <a href="">
-<<<<<<< HEAD
                                 <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/768px-Instagram-Icon.png" alt="">
-=======
-                                <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="">
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                             </a>
                         </div>
                     </div>
@@ -146,29 +129,17 @@
                 <div class="imagenes-pagos">
                     <div class="visa">
                         <a href="">
-<<<<<<< HEAD
                             <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="">
-=======
-                            <img width="60px"  src="https://i.ibb.co/WKK1S8h/visa.png" alt="">
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                         </a>
                     </div>
                     <div class="masterCard">
                         <a href="">
-<<<<<<< HEAD
                             <img width="40px" class="circular-image" src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338430_1280.png" alt="">
-=======
-                            <img width="80px" src="https://i.ibb.co/3R7mWrH/marter-Card.png" alt="">
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                         </a>
                     </div>
                     <div class="paypal">
                         <a href="">
-<<<<<<< HEAD
                             <img width="40px" class="circular-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/768px-Instagram-Icon.png" alt="">
-=======
-                            <img width="50px" src="https://i.ibb.co/f9mRQF0/paypal.png" alt="">
->>>>>>> 10612e37a1d2ab522f19a82c512b1d88d23043b7
                         </a>
                     </div>
                 </div>

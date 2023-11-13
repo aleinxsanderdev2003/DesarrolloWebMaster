@@ -1,34 +1,50 @@
-@extends('layouts.app') <!-- Asumiendo que tienes un layout base -->
+ <!-- Asumiendo que tienes un layout base -->
+ @extends("layout.app")
 @section('content')
-<div class="container mt-5">
-    <div class="row">
-        <div class="col">
-            <h1 class="page-title">Productos</h1>
-        </div>
-    </div>
 
+<link rel="stylesheet" href="{{asset('css/productomain.css')}}">
+
+<div class="container-fluid">
     <div class="row">
-        @foreach ($productos as $producto)
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="{{ asset('img/projects/' . $producto->imagen) }}" class="card-img-top" alt="{{ $producto->nombre }}">
-                <div class="card-body">
-                    <h2 class="card-title text-black">{{ $producto->nombre }}</h2>
-                    <p class="card-text">{{ $producto->descripcion }}</p>
-                    <p class="price">
-                        <del>${{ $producto->precio_original }}</del>
-                        <ins>${{ $producto->precio_descuento }}</ins>
-                    </p>
-                    <form action="{{ route('carrito.agregar', $producto->id) }}" method="post">
-                        @csrf
-                        <button type="submit" class="btn btn-primary">Añadir al carrito</button>
-                    </form>
-                    <a href="{{ route('cotizar') }}" class="btn btn-light">Cotizar por WhatsApp</a>
-                </div>
+        <!-- Barra lateral -->
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    @foreach($categorias as $categoria)
+                        @if($categoria->nombre === 'Todo')
+                            {{-- Si es la categoría 'Todo', agrega la clase 'active' si estamos en la página de productos --}}
+                            <li class="nav-item {{ Request::is('productos') ? 'active' : '' }}">
+                                <a class="nav-link" href="{{ route('productos.index') }}">
+                                    {{ $categoria->nombre }}
+                                </a>
+                            </li>
+                        @else
+                            {{-- Para otras categorías --}}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url("/categorias/{$categoria->nombre}") }}">
+                                    {{ $categoria->nombre }}
+                                </a>
+                            </li>
+                        @endif
+                    @endforeach
+                </ul>
             </div>
-        </div>
-        @endforeach
+        </nav>
+
+
+        <!-- Contenido principal -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <div class="container-fluid">
+                <!-- Ajusta el margen superior e inferior según tus necesidades -->
+                
+
+                <!-- Agrega tu contenido específico aquí -->
+                @yield('contenido')
+            </div>
+        </main>
     </div>
 </div>
+
+
 
 @endsection

@@ -6,27 +6,7 @@
         <h1 class="page-title">Productos</h1>
       </div>
     </div>
-<style>
-    .navbar-custom {
-        border-radius: 46px;
-background: linear-gradient(315deg, #b1b9d4, #d3dbfd);
-box-shadow:  -8px -8px 16px #555865,
-             8px 8px 16px #ffffff;
-    }
 
-    .navbar-custom .navbar-brand,
-    .navbar-custom .navbar-nav .nav-link {
-      color: #000000; /* Cambia el color del texto del navbar según tu preferencia */
-    }
-
-    .navbar-custom .navbar-brand,
-    .navbar-custom .navbar-nav .nav-link:hover {
-      color: #ff0000; /* Cambia el color del texto del navbar según tu preferencia */
-    }
-    .navbar-custom .nav-item.active {
-      border-bottom: 2px solid #ffffff; /* Cambia el color de la línea inferior del enlace activo */
-    }
-</style>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom" style="border-radius: 0px;">
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
