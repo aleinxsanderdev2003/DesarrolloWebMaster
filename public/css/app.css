@@ -55,3 +55,17 @@ li{
         margin: 0;
     }
 }
+
+
+
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 1; /* Asegura que el header esté encima del contenido */
+  }
+
+  /* Agrega cualquier estilo adicional que desees para tu navbar */
